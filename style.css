@@ -33,7 +33,7 @@ nav {
     color: #ffffff;
     letter-spacing: 0.15em;
     font-size: 0.9em;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
 .nav-links {
