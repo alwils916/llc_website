@@ -14,7 +14,7 @@ header {
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: Montserrat, serif;
     background-color: #333333;
     color: #ffffff;
     position: relative;
@@ -33,7 +33,7 @@ nav a {
 
 .hero {
     height: 100vh;
-    background-image: url('images/Teton Trip-331.jpg');
+    background-image: url('images/Teton_Trip-331.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,20 +41,24 @@ nav a {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    padding-bottom: 15%;
 }
 
 .hero h1{
     color: #ffffff;
-    font-size: 3em;
-    font-weight: normal;
-    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 300;
 }
-
+/*
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 40px 60px;
 }
-
+*/
 .about, .contact {
     max-width: 800px;
     margin: 0 auto;
@@ -66,6 +70,7 @@ nav a {
     object-fit: cover;
     display: block;
     margin: 0 auto 20px auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);   
 }
 
 h2 {
@@ -102,7 +107,7 @@ form input, form textarea {
     border: none;
     padding: 12px 16px;
     color: #f0f0f0;
-    font-family: Georgia, serif;
+    font-family: Montserrat, serif;
     font-size: 1em;
 }
 
@@ -116,7 +121,7 @@ form button {
     border: 1px solid #f0f0f0;
     color: #f0f0f0;
     padding: 12px 24px;
-    font-family: Georgia, serif;
+    font-family: Montserrat, serif;
     font-size: 1em;
     cursor: pointer;
     align-self: flex-start;
