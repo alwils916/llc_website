@@ -52,7 +52,7 @@
                 });
             }, { threshold: 0.1 });
 
-            document.querySelector('.about, .contact').forEach(section => {
+            document.querySelectorAll('.about, .contact').forEach(section => {
                 observer.observe(section);
             });
         </script>
