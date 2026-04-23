@@ -23,9 +23,13 @@
         </div>
 
         <div class="about" id="about">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <img src="images/me.jpeg" alt="Andrew Wilson">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            
+            
 
         </div>
 
@@ -39,5 +43,19 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
+        <script>
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelector('.about, .contact').forEach(section => {
+                observer.observe(section);
+            });
+        </script>
+
     </body>
 </html>

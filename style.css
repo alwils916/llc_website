@@ -85,6 +85,9 @@ nav a:hover {
     margin: 0 auto;
     padding: 80px 20px;
     border-top: 1px solid #444444;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .about {
@@ -101,6 +104,11 @@ nav a:hover {
     object-fit: cover;
     flex-shrink: 0;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 h2 {
