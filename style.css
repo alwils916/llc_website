@@ -1,13 +1,11 @@
-body {
-    font-family: Georgia, serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    color: #2c2c2c;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: normal;
-    letter-spacing: 0.05em;
+body {
+    font-family: Georgia, serif;
+    background-color: #111111;
+    color: #f0f0f0
 }
